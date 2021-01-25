@@ -36,7 +36,7 @@ Ram: ${server.limits.memory} MB
 Disk: ${server.limits.disk} MB
 CPU Cores: ${server.limits.cpu === 0 ? "∞" : `${server.limits.cpu}%`}
 Databases: ${server.feature_limits.databases}
-ID: ${server.identifier}`, true)
+ID: \`${server.identifier}\``, true)
             }
 
         embed.setDescription(body.length === 0 ? "None" : "**To focus a server**:\nDo: \`cp!focus <serverID>\`")
