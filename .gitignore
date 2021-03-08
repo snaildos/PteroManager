@@ -5,10 +5,8 @@
 /.config/
 /.npm/
 /.vscode/
+/data
 
 # Project exlude files
-config.js
-
-# Exclude logs
-/logs/**
-!/logs/.gitkeep
+/config/core.json
+.env

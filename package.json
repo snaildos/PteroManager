@@ -1,26 +1,33 @@
 {
   "name": "pteromanager",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "keywords": [],
   "author": "FlaringPhoenix#0001",
   "license": "ISC",
   "dependencies": {
+    "@joshdb/mongo": "^1.1.2",
+    "@joshdb/sqlite": "^1.1.5",
+    "axios": "0.21.1",
     "discord.js": "^12.5.1",
-    "josh": "^0.2.0",
-    "@josh-providers/mongo": "^1.1.0",
+    "dotenv": "^8.2.0",
     "eslint": "^7.14.0",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.3",
+    "josh": "^0.2.0",
+    "lodash": "^4.17.20",
+    "memory-cache": "^0.2.0",
     "moment": "^2.29.0",
     "moment-duration-format": "^2.3.2",
+    "nodemailer": "^6.4.16",
+    "nodemon": "^2.0.7",
     "ping": "^0.3.0",
     "request": "^2.88.2",
-    "snekfetch": "^4.0.4"
-  },
-  "devDependencies": {
-    "nodemailer": "^6.4.16"
+    "rfr": "^1.2.3"
   }
 }
